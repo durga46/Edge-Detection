@@ -26,42 +26,60 @@ Laplacian=cv2.Laplacian(img,cv2.CV_64F)
 ```
 * Canny
 canny=cv2.Canny(img,120,150)
-```
-<br>
+plt.figure(figsize=(20,20))
+plt.subplot(1,2,1)
+plt.axis("off")
+plt.title('Original image')
+plt.imshow(img)
+plt.subplot(1,2,2)
+plt.axis("off")
+plt.title('Sobel X axis')
+plt.imshow(sobelx)
+plt.show()
 
-### Step3:
-<br>
+plt.figure(figsize=(20,20))
+plt.subplot(1,2,1)
+plt.axis("off")
+plt.title('Original image')
+plt.imshow(img)
+plt.subplot(1,2,2)
+plt.axis("off")
+plt.title('Sobel Y axis')
+plt.imshow(sobely)
+plt.show()
 
-### Step4:
-<br>
+plt.figure(figsize=(20,20))
+plt.subplot(1,2,1)
+plt.axis("off")
+plt.title('Original image')
+plt.imshow(img)
+plt.subplot(1,2,2)
+plt.axis("off")
+plt.title('Sobel X and Y axis')
+plt.imshow(sobelxy)
+plt.show()
 
-### Step5:
-<br>
+plt.figure(figsize=(20,20))
+plt.subplot(1,2,1)
+plt.axis("off")
+plt.title('Original image')
+plt.imshow(img)
+plt.subplot(1,2,2)
+plt.axis("off")
+plt.title('Laplacian')
+plt.imshow(Laplacian)
+plt.show()
 
- 
-## Program:
-
-``` Python
-# Import the packages
-
-
-# Load the image, Convert to grayscale and remove noise
-
-
-
-# SOBEL EDGE DETECTOR
-
-
-
-# LAPLACIAN EDGE DETECTOR
-
-
-
-# CANNY EDGE DETECTOR
-
-
-
-
+plt.figure(figsize=(20,20))
+plt.subplot(1,2,1)
+plt.axis("off")
+plt.title('Original image')
+plt.imshow(img)
+plt.subplot(1,2,2)
+plt.axis("off")
+plt.title('Canny')
+plt.imshow(canny)
+plt.show()
 ```
 ## Output:
 ### SOBEL EDGE DETECTOR
