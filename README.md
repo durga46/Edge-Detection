@@ -13,8 +13,18 @@ Import the necessary modules.
 
 ### Step2:
 For performing edge detection on a image.
+```python
+* Sobel
+sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,5)
+sobely=cv2.Sobel(img,cv2.CV_64F,0,1,5)
+sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,5)
+* Laplacian
+Laplacian=cv2.Laplacian(img,cv2.CV_64F)
+* Canny
+canny=cv2.Canny(img,120,150)
+```
 
-# Import the packages
+## Import the packages
 ```python
 import cv2 
 import matplotlib.pyplot as plt
