@@ -1,3 +1,4 @@
+# EX.No:7
 # <p align="center"> Edge-Detection</p>
 
 ## Aim:
